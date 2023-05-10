@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="miestilo.css">
+</head>
+
+<body bgcolor="gray" >
+	<h1>Formulario</h1>
+	<form action="#" method="get">
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" name="nombre"><br>
+
+		<label for="apellido">Apellido:</label>
+		<input type="text" id="apellido" name="apellido"><br>
+
+		<p>genero:</p>
+		<input type="radio" checked id="masculino" name="sexo" value="masculino">
+		<label for="masculino">Masculino</label><br>
+		<input type="radio" id="femenino" name="sexo" value="femenino" >
+		<label for="femenino">Femenino</label><br>
+		<br>
+
+		<label for="ocupacion">Ocupacion:</label>
+		<select id="ocupacion" name="ocupacion" >
+			<option value="">Seleccione una opción</option>
+			<option value="Profesor">Profesor</option>
+			<option value="doctor">doctor</option>
+			<option value="director">director</option>
+			<option value="comisario">comisario</option>
+		</select><br>
+
+		<textarea name="obs_socio" id="obs_socio" cols="60" rows="3">dejame tu comentario</textarea>
+		<input type="submit" value="Registrar">
+		<input type="reset" value="Limpiar">
+	</form>
+</body>
+</html>
